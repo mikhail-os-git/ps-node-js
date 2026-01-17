@@ -14,7 +14,7 @@ async function calc(num1, num2, operation)
 {
   try {
 
-    if(!parseInt(num1) || !parseInt(num2)) {
+    if(isNaN(Number(num1)) || isNaN(Number(num2))) {
       console.log("use numbers in operations.");
       return;
     }

@@ -27,7 +27,7 @@ em.on('multiply', (a,b) => {
 calc(firstNum,secondNum,opr);
 
 function calc(a,b,op){
-    if(!parseInt(a) || !parseInt(b)) {
+  if(isNaN(Number(a)) || isNaN(Number(b)))  {
       console.log("use numbers in operations.");
       return;
     }
