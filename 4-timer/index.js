@@ -1,9 +1,11 @@
+'use strict';
+
 const input = process.argv;
 
 startProcess(input);
 
 function startProcess(input){
-  duration = 0;
+    let duration = 0;
     let start = 2;
     let stop = input.length;
     let message = "Ваш таймер сработает через: "
