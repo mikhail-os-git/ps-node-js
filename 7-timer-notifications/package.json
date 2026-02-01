@@ -1,0 +1,20 @@
+{
+  "name": "cli-timer",
+  "version": "1.0.0",
+  "type": "commonjs",
+  "description": "timer with notifations",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "timer",
+    "with",
+    "notifications"
+  ],
+  "author": "the.medwed",
+  "license": "ISC",
+  "dependencies": {
+    "node-notifier": "^10.0.1"
+  }
+}
